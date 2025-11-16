@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+}
+
+h1 { font-size: 24px; margin-bottom: 20px; }
+
+button {
+  padding: 14px 20px;
+  margin: 8px;
+  background: linear-gradient(45deg, #6c5ce7, #a29bfe);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover { transform: scale(1.05); }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+#wheel-container {
+  margin: 20px auto;
+  position: relative;
+}
+
+#canvas {
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(108, 92, 231, 0.5);
+  display: block;
+  margin: 0 auto;
+}
+
+.player {
+  margin: 8px;
+  padding: 12px;
+  background: rgba(22, 33, 62, 0.8);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.chance { color: #a29bfe; font-weight: bold; }
+.sticker { width: 50px; height: 50px; object-fit: contain; border-radius: 8px; }
