@@ -1,0 +1,12 @@
+sticker-roulette-miniapp/
+├── web/                 # Frontend Mini App
+│   ├── index.html
+│   ├── app.js
+│   └── style.css
+├── backend/             # FastAPI сервер
+│   └── main.py
+├── bot/                 # Telegram Bot
+│   └── bot.py
+├── requirements.txt     # Зависимости
+├── tonconnect-manifest.json  # Для TON Connect
+└── README.md           # Инструкции
